@@ -1,4 +1,3 @@
-
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class PrincipalComponent implements OnInit {
 
   mensaje: string;
-  materia: "PAV II";
+  materia: "pav ii";
+  verMateria = false;
 
   constructor() { }
 
   ngOnInit() {
     this.mensaje = "Hola mundo desde angular con interpolacion";
   }
-
 }
