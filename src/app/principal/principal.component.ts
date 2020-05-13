@@ -14,6 +14,7 @@ export class PrincipalComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.mensaje = 'Hola mundo desde angular con interpolacion';
   }
 
 }
