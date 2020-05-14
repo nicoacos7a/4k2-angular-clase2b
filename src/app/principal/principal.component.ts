@@ -9,7 +9,7 @@ export class PrincipalComponent implements OnInit {
 
   mensaje: string;
   materia: "pav ii";
-  verMateria = false;
+  verMateria = true;
 
   constructor() { }
 
