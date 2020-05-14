@@ -2,12 +2,12 @@
 
 <h1 *ngIf="verMateria">{{ materia }}</h1>
 
-<!-- Cambiando color del parrafo enlazando propiedades -->
-<p [style.color]="colorParrafo">{{mensaje}}</p>
-
 <!-- enlazar propiedades - 1ra forma -->
 <img [src]='logo'>
 <!-- 2da forma: interpolacion -->
-<img src={{logo}}>
+<!-- <img src={{logo}}> -->
+
+<!-- Cambiando color del parrafo enlazando propiedades -->
+<p [style.color]="colorParrafo">{{mensaje}}</p>
 
 <app-articulos-lista></app-articulos-lista>

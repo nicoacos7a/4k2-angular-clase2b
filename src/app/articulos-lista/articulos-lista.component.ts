@@ -11,10 +11,15 @@ import {articulosFamilias} from '../models/articuloFamilia-coleccion';
 export class ArticulosListaComponent implements OnInit {
   
   listaArticulos: ArticuloFamilia[];
+  verGrilla = false;
 
   constructor() {}
 
   ngOnInit(): void {
     this.listaArticulos = articulosFamilias;
+  }
+
+  mostrarGrilla(){
+    this.verGrilla = true;
   }
 }
