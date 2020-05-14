@@ -12,6 +12,7 @@ export class ArticulosListaComponent implements OnInit {
   
   listaArticulos: ArticuloFamilia[];
   verGrilla = false;
+  msjBoton = 'Mostrar Grilla';
 
   constructor() {}
 
@@ -19,7 +20,8 @@ export class ArticulosListaComponent implements OnInit {
     this.listaArticulos = articulosFamilias;
   }
 
-  mostrarGrilla(){
-    this.verGrilla = true;
+  mostrarOcultarGrilla(){
+    this.msjBoton = this.verGrilla?'Mostrar Grilla':'Ocultar';
+    this.verGrilla = !this.verGrilla;
   }
 }
