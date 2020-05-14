@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PrincipalComponent implements OnInit {
 
   mensaje: string;
-  materia: "pav ii";
+  materia: 'pav ii';
   verMateria = true;
 
   constructor() { }
