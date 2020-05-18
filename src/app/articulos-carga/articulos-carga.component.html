@@ -1,0 +1,11 @@
+<!-- armamos el formulario, que será parte del grupo de formularios definidos en la clase (fg) -->
+<form [formGroup] = "fg">
+  Id Articulo
+  <input formControlName="idArticuloFamilia">
+  <br>
+  Nombre articulo
+  <input formControlName="nombre">
+  <br>
+  <!-- Cuando se haga click en el boton, invoca a guardar() -->
+  <input type="button" (click)="grabar()" value="grabar()">
+</form>
