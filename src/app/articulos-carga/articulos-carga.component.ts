@@ -24,7 +24,8 @@ export class ArticulosCargaComponent implements OnInit {
     articulosFamilias.push({
       idArticuloFamilia: Number(this.fg.value.idArticuloFamilia), 
       nombre: this.fg.value.nombre
-      })
+      });
+    window.alert('Articulo familia almacenado');
   }
 
 }
