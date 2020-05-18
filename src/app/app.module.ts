@@ -10,8 +10,8 @@ import { ArticulosCargaComponent } from './articulos-carga/articulos-carga.compo
 
 @NgModule({
   imports: [ BrowserModule, FormsModule, RouterModule.forRoot([
-    // invocamos la lista articulos, mandandole un parámetro (id)
     {path: 'listaarticulos/:id', component: ArticulosListaComponent},
+    {path: 'listaarticulos', component: ArticulosListaComponent},
     {path: 'cargaarticulos', component: ArticulosCargaComponent},
     {path: 'principal', component: PrincipalComponent},
     {path: '', component: PrincipalComponent}

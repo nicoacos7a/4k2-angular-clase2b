@@ -11,10 +11,10 @@ import { ActivatedRoute } from '@angular/router';
 
 export class ArticulosListaComponent implements OnInit {
   
+  id: string;
   listaArticulos: ArticuloFamilia[];
   verGrilla = false;
   msjBoton = 'Mostrar Grilla';
-  id: string;
 
   constructor(private route: ActivatedRoute) {}
 
